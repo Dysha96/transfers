@@ -52,8 +52,22 @@
  7. Выполнить sudo make ds
  8. Выполнить crontab -e и в конец файла добавить
  * * * * * docker exec transfers_app_1 php artisan schedule:run >> /dev/null 2>&1
-
+ 9. Открыть проект по адресу localhost:8080
  ```
+ 
+ # Разворачивание проекта без докера
+ 1. Выполнить команду git clone https://github.com/Dysha96/transfers
+ 2. cd transfers
+ 3.	cp .env.example .env 
+ 4. Открыть файл env и изменить переменые
+ - DB_DATABASE=
+ - DB_USERNAME=
+ - DB_PASSWORD=
+ - DB_PORT=
+ 5. composer install
+ 6. php artisan serve
+ 7. Открыть проект по адресу localhost:8080
+
  
  ## Для запуска тестов введите команду 
  
