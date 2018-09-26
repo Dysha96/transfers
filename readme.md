@@ -40,7 +40,7 @@
  2. cd transfers
  3. cp .env.example .env 
  4. cp .env.example .env 
- 5. Открыть файл docker-compose.yml и отредактировать переменные (можно оставить по умолчанию)
+ 5. Открыть файл docker-compose.yml и отредактировать переменные
  - "MYSQL_DATABASE="
  - "MYSQL_USER="
  - "MYSQL_PASSWORD="
