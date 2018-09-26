@@ -71,5 +71,5 @@
  
  ## Для запуска тестов введите команду 
  
- ``` docker exec transfers_app_1 vendor/bin/phpunut ```
+ ``` docker exec transfers_app_1 vendor/bin/phpunit ```
 ---
