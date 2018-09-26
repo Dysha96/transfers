@@ -39,7 +39,7 @@
  1. Выполнить команду git clone https://github.com/Dysha96/transfers.git
  2. cd transfers
  3. cp .env.example .env 
- 4. cp .env.example .env 
+ 4. cp docker-compose.yml.example docker-compose.yml
  5. Открыть файл docker-compose.yml и отредактировать переменные
  - "MYSQL_DATABASE="
  - "MYSQL_USER="
